@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "provider": "bilibili",
+  "fetchedAt": "2026-09-27T09:40:23.819Z",
+  "accountRef": "3546716181628998",
+  "items": [
+    {
+      "title": "亚托莉 -我挚爱的时光-",
+      "status": "watching",
+      "rating": 9.6,
+      "year": "2024",
+      "genres": [
+        "科幻",
+        "校园",
+        "恋爱",
+        "游戏改"
+      ],
+      "cover": "/assets/anime/covers/bili_48029.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss48029",
+      "description": "「在逐渐沉没的世界，我找到了你。」 在近未来，不明原因的海平面上升导致大面积地表被海水淹没。 幼时因意外事故失去了一条腿的少年斑鸠夏生厌倦了城市生活，迁居到了海边的乡村小镇。 他无亲无故，留给他的只有...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "22097455",
+        "seasonId": "48029"
+      }
+    },
+    {
+      "title": "不當哥哥了！（僅限港澳台地區）",
+      "status": "watching",
+      "rating": 0,
+      "year": "2023",
+      "genres": [
+        "日常",
+        "搞笑",
+        "校园"
+      ],
+      "cover": "/assets/anime/covers/bili_44493.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss44493",
+      "description": "某天，家裡蹲的啃老族緒山真尋一覺醒來發現自己變成了“女孩子”！？正當真尋不知道鏡子裡的美少女是自己而陷入混亂的時候，跳級進入大學的科學家妹妹緒山美波里出現了。她透露在飲料里加了一種奇怪的藥物！ 真尋最...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28480920",
+        "seasonId": "44493"
+      }
+    },
+    {
+      "title": "因为太怕痛就全点防御力了 第二季",
+      "status": "watching",
+      "rating": 9.3,
+      "year": "2023",
+      "genres": [
+        "日常",
+        "奇幻",
+        "搞笑",
+        "萌系",
+        "战斗",
+        "小说改"
+      ],
+      "cover": "/assets/anime/covers/bili_44151.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss44151",
+      "description": "大受欢迎的虚拟现实大型多人在线角色扮演游戏「新世界」中出现了超强新人？！ 让任何攻击都失去效果，并用致死毒技能彻底蹂躏怪物和玩家！ 因其不寻常的战斗方式，这名新人被称作「移动要塞」或「最终头目」。 ...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28412511",
+        "seasonId": "44151"
+      }
+    },
+    {
+      "title": "白圣女与黑牧师",
+      "status": "watching",
+      "rating": 9.8,
+      "year": "2023",
+      "genres": [
+        "日常",
+        "治愈",
+        "奇幻",
+        "恋爱",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_45504.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss45504",
+      "description": "某所教会。里面住着可爱但爱偷懒的圣女大人， 以及认真诚实，爱过度保护，又擅长做饭的牧师先生。 在安宁的每一天里，心怀暗恋的圣女和迟钝的牧师 展开了“无意识的亲密恋爱喜剧”。 令人焦急的二人，他们的关系...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "20290749",
+        "seasonId": "45504"
+      }
+    },
+    {
+      "title": "邻家的天使同学",
+      "status": "watching",
+      "rating": 7.4,
+      "year": "2023",
+      "genres": [
+        "日常",
+        "治愈",
+        "校园",
+        "小说改"
+      ],
+      "cover": "/assets/anime/covers/bili_44818.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss44818",
+      "description": "高一学生藤宫周在升学后开始了他的独居生活。 他所在的公寓隔壁，住着他们学校第一的美少女——椎名真昼。 他们二人平时几乎没有交集。而一次大雨中，周把伞借给了浑身湿透的真昼。自此，二人便开始了奇妙的交流。...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "20136738",
+        "seasonId": "44818"
+      }
+    },
+    {
+      "title": "约会大作战 第四季",
+      "status": "watching",
+      "rating": 9.8,
+      "year": "2022",
+      "genres": [
+        "奇幻",
+        "萌系",
+        "战斗",
+        "恋爱",
+        "小说改",
+        "魔法"
+      ],
+      "cover": "/assets/anime/covers/bili_41432.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss41432",
+      "description": "百万动漫爱好者一键三连推荐的入宅必看之作。 狂三、十香、士道、与精灵约会，使其娇羞等大家熟悉的名字和梗，都源于《约战》系列动画~如果你还没有看过，不妨就从最新的第四部开始，再往前补吧：） 名为五河士...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28237141",
+        "seasonId": "41432"
+      }
+    },
+    {
+      "title": "间谍过家家",
+      "status": "watching",
+      "rating": 9.7,
+      "year": "2022",
+      "genres": [
+        "日常",
+        "搞笑",
+        "战斗",
+        "漫画改"
+      ],
+      "cover": "/assets/anime/covers/bili_41410.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss41410",
+      "description": "每个人都有不可告人的一面。 这是一个世界各国均暗地里进行激烈情报战的时代。奥斯塔尼亚（Ostania）与维斯达利斯（Westalis）的冷战状态已经持续数十年。 是维斯达利斯情报局奥斯塔尼...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28237119",
+        "seasonId": "41410"
+      }
+    },
+    {
+      "title": "無職轉生～到了異世界就拿出真本事～（僅限港澳台地區）",
+      "status": "watching",
+      "rating": 0,
+      "year": "2021",
+      "genres": [
+        "小说改",
+        "穿越",
+        "冒险"
+      ],
+      "cover": "/assets/anime/covers/bili_37762.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss37762",
+      "description": "“我要在這個異世界拿出真本事！” 34歲童貞且無職的家裡蹲男子，在父母的葬禮當天被趕出家門後，在路上被一輛卡車所撞死。意識清醒後，他發現自己居然作為一個剛出生的嬰兒轉生到了劍與魔法的異世界！像廢物一樣...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28233441",
+        "seasonId": "37762"
+      }
+    },
+    {
+      "title": "因为太怕痛就全点防御力了",
+      "status": "watching",
+      "rating": 9,
+      "year": "2020",
+      "genres": [
+        "奇幻",
+        "萌系",
+        "小说改",
+        "穿越",
+        "架空"
+      ],
+      "cover": "/assets/anime/covers/bili_29358.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss29358",
+      "description": "主角本条枫在好友白峰理沙推荐下开始游玩游戏“NewWorld Online”，创建了名为“梅普露”的角色。然而作为游戏初学者，梅普露选择了不受欢迎的大盾当武器，同时因为怕痛而把所有状态点加到防御力的极...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28224137",
+        "seasonId": "29358"
+      }
+    },
+    {
+      "title": "约战狂三外传",
+      "status": "watching",
+      "rating": 9.6,
+      "year": "2020",
+      "genres": [
+        "校园",
+        "战斗",
+        "小说改"
+      ],
+      "cover": "/assets/anime/covers/bili_34405.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss34405",
+      "description": "被称作“第⼗领域”的邻界，是“准精灵”的少⼥们的战场。 战场的某处，精灵・时崎狂三苏醒了过来  “为什么会在这⾥，是怎么到这⾥来的……”  “最重要的是，这⾥是什么地⽅？” 尚在迷失中的狂三，⽿朵⾥却...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "28229874",
+        "seasonId": "34405"
+      }
+    },
+    {
+      "title": "约会大作战 第三季",
+      "status": "watching",
+      "rating": 7.9,
+      "year": "2019",
+      "genres": [
+        "奇幻",
+        "萌系",
+        "战斗",
+        "小说改",
+        "魔法"
+      ],
+      "cover": "/assets/anime/covers/bili_26308.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss26308",
+      "description": "人类遭遇了名为“空间震”的新型灾害。震荡空间、将一切破坏殆尽的这一灾厄，是由于存在于临界的精灵出现这个世界上时而发生的。为了阻止空间震，使人类免受灾厄而必须采取的措施，是使用武力歼灭精灵，或者是—— ...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "4762754",
+        "seasonId": "26308"
+      }
+    },
+    {
+      "title": "漆黑的子弹",
+      "status": "watching",
+      "rating": 9.2,
+      "year": "2014",
+      "genres": [
+        "奇幻",
+        "战斗"
+      ],
+      "cover": "/assets/anime/covers/bili_4181.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss4181",
+      "description": "西元二○二一年，人类在与病毒性寄生生物“原肠动物”的战争中败北，被驱逐至狭窄的领土，带着恐惧与绝望苟且偷生。 至此过了十年，人类在能控制原肠动物病毒的少女们“受诅之子”力量下得以找到对抗怪物的最后希...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "4181",
+        "seasonId": "4181"
+      }
+    },
+    {
+      "title": "约会大作战",
+      "status": "watching",
+      "rating": 9.3,
+      "year": "2013",
+      "genres": [
+        "战斗"
+      ],
+      "cover": "/assets/anime/covers/bili_4188.webp",
+      "link": "https://www.bilibili.com/bangumi/play/ss4188",
+      "description": "【本片翻译由澄空学园字幕组提供】故事是讲述一名普通的高中二年级生五河士道，突然在某一天遇上了一场大爆炸，而在这场大爆炸之中竟然出现一名身穿盔甲手持大剑的神秘美少女。原来这名少女的真正身份是“精灵”，是...",
+      "studio": "日本",
+      "identity": {
+        "provider": "bilibili",
+        "sourceId": "4188",
+        "seasonId": "4188"
+      }
+    }
+  ]
+}
