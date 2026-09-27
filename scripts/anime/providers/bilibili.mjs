@@ -88,6 +88,38 @@ function detectImageExtension(buffer, contentType) {
 	return "webp";
 }
 
+/**
+ * 通过 season API 取高清封面（960x1280 原图）。
+ * 关注列表接口只返回 480x640 低清图，会在大卡片/高分屏下模糊；
+ * season 接口的原图可裁剪出 720x960，清晰度显著更好。失败时返回 undefined。
+ */
+async function fetchHighResCover(seasonId) {
+	if (!seasonId) return undefined;
+	try {
+		const res = await fetch(
+			`https://api.bilibili.com/pgc/view/web/season?season_id=${encodeURIComponent(seasonId)}`,
+			{
+				headers: {
+					"User-Agent": USER_AGENT,
+					Referer: "https://www.bilibili.com/",
+					Accept: "application/json",
+				},
+				signal: AbortSignal.timeout(10000),
+			},
+		);
+		if (!res.ok) return undefined;
+		const json = await res.json();
+		const cover = json?.result?.cover;
+		if (json?.code === 0 && cover) {
+			if (cover.startsWith("//")) return `https:${cover}`;
+			return cover.replace(/^http:\/\//, "https://");
+		}
+	} catch {
+		// 静默降级：回退到关注列表封面
+	}
+	return undefined;
+}
+
 async function downloadCoverLocally(coverUrl, id, coverConfig = {}) {
 	if (!coverUrl || !coverUrl.startsWith("http")) return undefined;
 
@@ -100,7 +132,7 @@ async function downloadCoverLocally(coverUrl, id, coverConfig = {}) {
 		let targetUrl = coverUrl;
 		// 若启用了 useWebp（默认 true），B站图片 URL 追加裁剪尺寸与 webp 转换参数，避免 2MB 原图直落盘
 		if (coverConfig.useWebp !== false && !targetUrl.includes("@")) {
-			targetUrl = `${targetUrl}@480w_720h.webp`;
+			targetUrl = `${targetUrl}@720w_1080h.webp`;
 		}
 
 		const res = await fetch(targetUrl, {
@@ -279,8 +311,9 @@ export async function fetchBilibiliData(bilibiliConfig) {
 				: 0;
 		const progress = watched !== undefined ? { watched, total } : undefined;
 
-		// 封面处理
-		let cover = item.cover || "";
+		// 封面处理：优先 season API 高清原图，失败回退关注列表封面
+		let cover = (await fetchHighResCover(seasonId)) || item.cover || "";
+		await delay(120);
 		if (cover) {
 			if (cover.startsWith("http://"))
 				cover = cover.replace("http://", "https://");
@@ -292,7 +325,7 @@ export async function fetchBilibiliData(bilibiliConfig) {
 			cover = localCover || cover;
 		} else if (coverConfig.mode === "remote" && cover) {
 			if (coverConfig.useWebp !== false && !cover.includes("@")) {
-				cover = `${cover}@480w_720h.webp`;
+				cover = `${cover}@720w_1080h.webp`;
 			}
 			if (coverConfig.mirror) {
 				cover = `${coverConfig.mirror.replace(/\/+$/, "")}/${cover.replace(/^https?:\/\//, "")}`;

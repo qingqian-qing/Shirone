@@ -46,9 +46,11 @@ src/generated/local-icon-collections.ts
 *.iml
 
 # anime snapshot data & downloaded covers
-src/data/anime-snapshots/*.json
-public/assets/anime/covers/*
-!public/assets/anime/covers/.gitkeep
+# 这些产物由 `pnpm anime:sync` 生成，必须纳入版本控制：
+# CF/EdgeOne 构建不会执行 sync，若不提交会回退成空数据或丢封面。
+# src/data/anime-snapshots/*.json
+# public/assets/anime/covers/*
+# !public/assets/anime/covers/.gitkeep
 
 # generated responsive moment thumbnails
 public/assets/moments/thumbnails/*
