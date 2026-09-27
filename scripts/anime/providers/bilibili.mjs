@@ -100,7 +100,7 @@ async function downloadCoverLocally(coverUrl, id, coverConfig = {}) {
 		let targetUrl = coverUrl;
 		// 若启用了 useWebp（默认 true），B站图片 URL 追加裁剪尺寸与 webp 转换参数，避免 2MB 原图直落盘
 		if (coverConfig.useWebp !== false && !targetUrl.includes("@")) {
-			targetUrl = `${targetUrl}@220w_280h.webp`;
+			targetUrl = `${targetUrl}@480w_720h.webp`;
 		}
 
 		const res = await fetch(targetUrl, {
@@ -292,7 +292,7 @@ export async function fetchBilibiliData(bilibiliConfig) {
 			cover = localCover || cover;
 		} else if (coverConfig.mode === "remote" && cover) {
 			if (coverConfig.useWebp !== false && !cover.includes("@")) {
-				cover = `${cover}@220w_280h.webp`;
+				cover = `${cover}@480w_720h.webp`;
 			}
 			if (coverConfig.mirror) {
 				cover = `${coverConfig.mirror.replace(/\/+$/, "")}/${cover.replace(/^https?:\/\//, "")}`;
