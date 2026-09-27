@@ -13,7 +13,7 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 		{
 			name: "Bilibili",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/",
+			url: "https://space.bilibili.com/3546716181628998",
 		},
 		{
 			name: "GitHub",
